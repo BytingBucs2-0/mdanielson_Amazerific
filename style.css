@@ -1,5 +1,6 @@
 body {
-	background: #f9e933;
+	background: yellow;	
+    font-family: 'Droid Sans', sans-serif;
 }
 
 header, main, footer {
@@ -18,16 +19,47 @@ header {
 
 header h1 {
 	float: left;
-	width: 570px;
+	width: 570px;	
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 4em;
+	font-style: italic;
+	color: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 header nav {
 	float: right;
 	width: 285px;
+	margin-top: 20px;	
+	padding-top: 20px;
+}
+
+nav a {	
+	text-decoration: none;
+	color: gray;
 }
 
 main {
 	background: white;
+	padding-top: 40px;
+	border-top: 1px solid gray;
+	padding-left: 5px;
+}
+
+main h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	font-weight: bold;	
+	padding-bottom: 8px;
+}
+
+main h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 8px;
 }
 	
 .content {
@@ -43,6 +75,36 @@ main {
 .sitemap {	
 	float: right;
 	width: 285px;
+}
+
+footer h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-weight: bold;	
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+footer p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+}
+
+.firstP {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	color: gray;
+}
+
+.sitemap li {
+	padding-bottom: 3px;
+}
+
+.sitemap li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 1em;
 }
 
 
